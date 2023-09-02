@@ -1,0 +1,51 @@
+/* Style for the welcome container */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    background-color: rgba(172, 215, 243, 0.798);
+    box-shadow: 2px 3px 5px 6px rgba(0, 0, 0, 0.123);
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome p:nth-child(2) {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.closeWelcome {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.headerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(21, 21, 32);
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.headerDiv a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+    text-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.557);
+    font-size: 17px;
+}
+
+.headerDiv a:hover{
+    text-decoration: underline;
+    color: #838383;
+}

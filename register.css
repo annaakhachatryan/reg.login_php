@@ -1,0 +1,104 @@
+.register {
+    width: 310px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.207);
+}
+
+.register input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1.5px solid rgb(241, 102, 102);
+    border-radius: 5px;
+    outline: none;
+}
+
+.register button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px;
+}
+
+.register button:hover {
+    background-color: #0056b3;
+}
+
+
+.register h1{
+    text-align: center;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.errorpas-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.errorinp-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.error-message p, .success-message p{
+    cursor: pointer;
+    font-weight: 600;
+}
+.success-message {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.success-message p {
+    margin: 0;
+}
+
+input.valid {
+    border-color: blue;
+    border-width: 800;
+}
+
+
